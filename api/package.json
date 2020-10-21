@@ -1,0 +1,13 @@
+{
+  "name": "build-a-bot-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.16.3"
+  }
+}
