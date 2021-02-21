@@ -2,9 +2,12 @@ module.exports = {
   devServer: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8081/',
+        target: 'http://api:8081/',
         changeOrigin: true,
       },
+    },
+    watchOptions: {
+      poll: true,
     },
   },
 };
